@@ -1,0 +1,92 @@
+
+.container {
+  position: relative;
+  font-family: Arial;
+  text-align:center;
+  color:white;
+}
+
+.form {
+  position: absolute;
+  top: 180px;
+  left: 350px;
+  background-color:white;
+  color:black;
+  opacity:0.6;
+ height:10%;
+  width:30%;
+}
+.centered {
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  transform: translate(100%, -50%);
+}
+ .container .btn {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(320%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:#FAFAD2;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+container1 {
+  position: relative;
+  font-family: Arial;
+  text-align:center;
+  color:white;
+}
+
+.circle {
+ position: absolute;
+top:200px;
+left:1030px;
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: BLACK;
+  line-height: 1b5px;
+  text-align: BOTTOM;
+  background: #FAFAD2
+}
+.container1 .btn {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(595%, -30%);
+  -ms-transform: translate(-30%, -30%);
+  background-color:black;
+  color:white;
+  font-size: 16px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+
+}
+input {
+  border:none;
+  background:Beige;
+  
+}
+button{
+height:8%;
+width:10%;
+background:#FAFAD2;
+}
+.footer {
+  posotion:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+height:30%;
+   background-color:#EEE8AA;
+   color: black;
+   text-align: center;
+}
